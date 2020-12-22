@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%- include ('partials/head.html')%>
+
+  <link rel="stylesheet" href="/css/personajes.css">
+
+  <title>Personajes</title>
+</head>
+<body>
+
+  <%- include ('partials/nav.html')%>
+
+  <div class="contenido">
+    <h1 class="mt-3">Personajes</h1>
+
+    <!--LUISITA-->
+    <div class="container">
+      <div class="row w-100 h-100 d-flex align-items-center justify-content-around">
+        <div class="col-sm-5">
+          <h2>Luisita Gómez</h2>
+        <p class="text mt-4 personajes">Una chica con poco interés en las tecnologías modernas para el ligue, feminista, diseñadora gráfica y un poco maniática. Hermana menor de <a href=#María>María.</a> Obsesionada con "Amar Eternamente" y fan de la relación lésbica que surge entre los personajes Lucía y Aurelia. Buscando integrarse en el mundo de las redes sociales crea el <em>#Lurelia</em> en Twitter para comentar la trama de las chicas.</p>
+        </div>
+        <div class="col-sm-6">
+          <img class="border border-5 border-white rounded-2 img-fluid" src="../img/Luisitanew.png">
+        </div>
+      </div>
+ 
+    <!--AMELIA-->    
+      <div class="row w-100 h-100 d-flex align-items-center justify-content-around mt-4">
+        <div class="col-sm-6">
+          <img class="border border-5 border-white rounded-2 img-fluid" src="../img/amelia.jpg" width="560" height="315">
+        </div>
+        <div class="col-sm-5">
+          <h2 class="text text-right">Amelia Ledesma</h2>
+            <p class="personajes text mt-4">Actriz en busca de una oportunidad laboral que le permita triunfar. Mejor amiga de <a href=#Ignacio>"Nacho"</a> y en una relación abierta con la <a href=#Maru>"Maru"</a>. Sigue los <em>trends</em> de las redes sociales para mantenerse al tanto y no parecer una persona sacada de los 70'. No le gusta engancharse de series.</p>
+        </div>
+      </div>
+    
+     <!--MARIA-->    
+    
+      <div class="row mt-4 w-100 h-100 d-flex align-items-center justify-content-around">
+        <div class="col-sm-5">
+          <h2 id="María">María Gómez</h2>
+            <p class="mt-4 personajes">Hermana de Luisita, siempre ahí para escucharla y ayudarla en sus problemas con la tecnología, a diferencia de su hermana, ella sí que aprovecha las apps de ligue y el matrimonio no le hace mucha gracia.</p>
+        </div>
+        <div class="col-sm-6">
+          <img class="border border-5 border-white rounded-2 img-fluid" src="../img/LuciaM.png">
+        </div>
+      </div>
+   
+    <!--IGNACIO--> 
+
+      <div class="row mt-4 w-100 h-100 d-flex align-items-center justify-content-around">
+        <div class="col-sm-6">
+          <img class="border border-5 border-white rounded-2 img-fluid" src="../img/JonasB.png">
+        </div>
+        <div class="col-sm-5">
+          <h2 class="text-right" id="Ignacio">Ignacio Solano</h2>
+            <p class="text mt-4 personajes">Mejor amigo de Amelia, un casanova muy fan de las citas arregladas por internet. Cree que la relación de Amelia y Maru es un disparate. Coincide en una cita con María en el capítulo 2 "Primera Cita".</p>
+        </div>
+      </div>
+      
+    <!--MARU-->  
+
+      <div class="row mt-4 mb-5 w-100 h-100 d-flex align-items-center justify-content-around">
+        <div class="col-sm-5">
+          <h2 id="Maru">Maruxa Linares</h2>
+            <p class="mt-4 personajes">Vecina de Luisita y pareja de Amelia. La monogamia no es lo suyo, ni los modales. Prefiere dejar los sentimentalismos de lado y probar un poco de todo.</p>
+        </div>
+        <div class="col-sm-6">
+          <img class="border border-5 border-white rounded-2 img-fluid" src="../img/maru.jpg" width="560" height="315">
+        </div>
+      </div>
+    </div>
+      
+  </div>
+
+  <%- include ('partials/footer.html')%>
+</body>
+</html>

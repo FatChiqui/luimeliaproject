@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--LINKS-->
+  <%- include('partials/head.html')%>
+  
+  <!--CUSTOM CSS-->
+  <link rel="stylesheet" href="/css/index.css">
+  
+  <title>Luimelia</title>
+</head>
+<body>
+  <!--HEADER-->
+  <%- include('partials/nav.html')%>
+
+
+<!--CONTENT-->
+<main class="container d-flex align-items-center justify-items-center vh-100">
+    
+  <div class="row">
+    <!--COLUMN 1 text-->
+    <div class="col-sm-6 my-auto">
+      <img src="/img/logito.png" class="img-fluid">
+          <p class="text mt-4 texto">Es una serie original de ATRESplayer, que narra la historia en la actualidad de la pareja formada por Luisa Gómez (<a href="https://es.wikipedia.org/wiki/Paula_Usero">Paula Usero</a>) y Amelia Ledesma (<a href="https://es.wikipedia.org/wiki/Carol_Rovira">Carol Rovira</a>). La misma basada en los mismos personajes de la serie diaria "Amar es Para Siempre" ambientada en una España post-dictadura. Fue el rotundo exito de la pareja en las redes, lo que llevo a la decisión de producir un spin-off de 6 episodios de 8 minutos de  duración. La serie fue escrita y dirigida por <a href="https://twitter.com/glezsantaolalla">Borja González Santaolalla</a> junto a <a href="https://twitter.com/dianarojo_?lang=es">Diana Rojo.</a>
+          </p>
+
+
+    </div>
+    <!--COLUMN 2 carousel-->
+    <div class="col-sm-6 my-auto border border-5 border-white rounded-2">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/img/luimelia1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/img/luimelia2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/luimelia3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+      </div>  
+    </div>
+  </div>
+  
+
+</main>   
+  <!--CONTENT-->
+
+  <%- include('partials/footer.html')%>
+</body>
+
+
+</html>

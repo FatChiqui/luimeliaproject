@@ -1,0 +1,23 @@
+p {
+  text-align: justify;
+}
+
+/*.accordion__button{
+  outline: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  -ms-transition: background 0.2s;
+  -o-transition: background 0.2s;
+}
+
+.accordion__button--active {
+  background-color: #555555;
+}
+
+.accordion__content{
+  overflow: hidden;
+  max-height:0; 
+  padding: 0rem 1rem;
+}*/
